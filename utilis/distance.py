@@ -9,7 +9,7 @@ def euclidean(x, y):
     :param y: {array-like} 'ndarray <numpy ndarray>' of shape: [vector_length, ]
     :return:  float, the L2 distance between 'x' vector and 'y' vector
     """
-    return np.sqrt(np.sum(x - y) ** 2)
+    return np.sqrt(np.sum((x - y) ** 2))
 
 
 def manhattan(x, y):
