@@ -28,6 +28,7 @@ def pca(X, k):
     return -data
 
 
+# for verification
 if __name__ == '__main__':
     array = np.random.randn(10, 5)
     print(f"Origin Matrix: \n {array}\n")
